@@ -1,0 +1,44 @@
+:root {
+  --primary-color: #f1f1f1;
+  --secondary-color: #003953;
+  --link-color: #cf0d0d;
+}
+
+* {
+  background-color: #242941;
+}
+
+header {
+  color: white;
+  font-family: "Bebas Neue", cursive;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.lighter-font {
+  font-weight: lighter;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: var(--primary-color);
+  font-weight: lighter;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: var(--link-color);
+}
+
+.screenshot {
+  height: 300px;
+}
